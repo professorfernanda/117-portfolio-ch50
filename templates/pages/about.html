@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+
+{% block title %} About Me {% endblock title %}
+{% load static %}
+
+{% block content %}
+<section class="about-section center-row">
+
+    <div class="about-image-container">
+        <img src="{% static './img/logo.png' %}" alt="logo">
+    </div>
+
+    <div class="about-description-container center-column">
+        <h1>My Rol as Developer</h1>
+        <h2>My Name Here</h2>
+
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio autem fugiat cum! Id in illo quis dolores ea sunt praesentium, adipisci, ratione expedita recusandae dolorum voluptate totam corporis, quidem distinctio. Maiores ratione consequuntur perspiciatis odit porro aut nobis voluptatum, dolorum deleniti nostrum est quam, repudiandae voluptatibus similique vitae laudantium inventore eveniet adipisci! Quam dolor libero neque beatae a reiciendis illo. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae provident, soluta voluptatum, culpa, totam fugit eveniet earum autem sapiente eius quos? Voluptatem, molestiae! Hic velit provident magnam at. Aut, dolor!
+        <br><br>
+        Maiores ratione consequuntur perspiciatis odit porro aut nobis voluptatum, dolorum deleniti nostrum est quam, repudiandae voluptatibus similique vitae laudantium inventore eveniet adipisci! Quam dolor libero neque beatae a reiciendis illo. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae provident, soluta voluptatum, culpa, totam fugit eveniet earum autem sapiente eius quos? Voluptatem, molestiae! Hic velit provident magnam at. Aut, dolor!</p>
+
+        <div class="skills-container center-column">
+            <h2>My Skills</h2>
+
+            <div class="skills-list center-row">
+                <label class="text-label">Skill</label>
+                <label class="text-label">Skill</label>
+                <label class="text-label">Skill</label>
+                <label class="text-label">Skill</label>
+                <label class="text-label">Skill</label>
+                <label class="text-label">Skill</label>
+                <label class="text-label">Skill</label>
+                <label class="text-label">Skill</label>
+                <label class="text-label">Skill</label>
+                <label class="text-label">Skill</label>
+            </div>
+        </div>
+    </div>
+
+</section>
+{% endblock content %}
